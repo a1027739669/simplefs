@@ -1,0 +1,16 @@
+2022-10-19 10:54:19 [INF] [server.go:100] [github.com/sjqzhang/go-fastdfs/server.InitServer] succes init log access
+2022-10-19 10:54:19 [INF] [config.go:263] [github.com/sjqzhang/go-fastdfs/server.ParseConfig] {:8080 [http://10.85.174.150:8080] false group1 false true [] 1800 true  true [] [] default {abc@163.com abc smtp.163.com:25}  false 600 0 true http://10.85.174.150:8080 md5 5 true [127.0.0.1] false false true false true false  false true true 0 false false false 0 0 0 0 0 0 0 0 0 0 2000 1000 [{pypi :9000 https://pypi.douban.com}] false}
+2022-10-19 10:54:19 [INF] [config.go:265] [github.com/sjqzhang/go-fastdfs/server.ParseConfig] config parse success
+2022-10-19 10:54:20 [INF] [config.go:263] [github.com/sjqzhang/go-fastdfs/server.ParseConfig] {:8080 [] false group1 false true [] 1800 true  true [] [] default {abc@163.com abc smtp.163.com:25}  false 600 10000 true http://10.85.174.150:8080 md5 5 true [127.0.0.1] true false true false true false  false true true 0 false false false 600 600 0 0 200 12 200 3 60 100000 2000 1000 [{pypi :9000 https://pypi.douban.com}] false}
+2022-10-19 10:54:20 [INF] [config.go:265] [github.com/sjqzhang/go-fastdfs/server.ParseConfig] config parse success
+2022-10-19 10:54:20 [INF] [config.go:237] [github.com/sjqzhang/go-fastdfs/server.Config] CompleteUploads{113d26534206bf58cce280aff94e7a0f 2097152 false 2097152 map[filename:big.txt] false false []}
+2022-10-19 10:54:20 [ERR] [init.go:182] [github.com/sjqzhang/go-fastdfs/server.(*Server).initTus.func4] leveldb: not found
+2022-10-19 10:54:20 [INF] [init.go:223] [github.com/sjqzhang/go-fastdfs/server.(*Server).initTus.func4] &{big.txt big.txt files/default/20221019/10/54/5 12910ba582eb933d4b456894cd30028b 2097152 [http://10.85.174.150:8080]  1666148060 -1 0 }
+2022-10-19 10:54:21 [INF] [file.go:317] [os.Open] download:files/default/20221019/10/54/5/big.txt
+2022-10-19 10:54:21 [INF] [config.go:237] [github.com/sjqzhang/go-fastdfs/server.Config] CompleteUploads{2bcd747ac4cddf181147e6be808b5774 235520 false 235520 map[filename:small.txt] false false []}
+2022-10-19 10:54:21 [ERR] [init.go:182] [github.com/sjqzhang/go-fastdfs/server.(*Server).initTus.func4] leveldb: not found
+2022-10-19 10:54:21 [INF] [init.go:223] [github.com/sjqzhang/go-fastdfs/server.(*Server).initTus.func4] &{small.txt small.txt files/default/20221019/10/54/5 5bf44feb301dffd8e69965f247a9ba31 235520 [http://10.85.174.150:8080]  1666148061 -1 0 }
+2022-10-19 10:54:23 [INF] [file.go:317] [os.Open] download:files/default/20221019/10/54/5/small.txt
+2022-10-19 10:54:23 [INF] [file.go:326] [os.Create] upload: files/default/20221019/10/54/5/0_small.txt
+2022-10-19 10:54:23 [INF] [file.go:326] [os.Create] upload: files/default/20221019/10/54/5/0_big.txt
+2022-10-19 10:54:23 [ERR] [http_info.go:257] [github.com/sjqzhang/go-fastdfs/server.(*Server).ReceiveMd5s.func1] leveldb: not found
